@@ -1,0 +1,49 @@
+OOPS--
+
+3 Priciples of OOPS
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+    - Method Overloading/Compile time
+    - Method Overriding/ Run time
+
+concepts
+
+Abstraction -Model
+
+
+Inheritance
+
+ - Single Level
+ - Multi Level
+ - Hierarchical Level
+==================================
+No Hybrid
+No Multiple inheritance
+
+
+Benefit
+
+1. Code Reusabilty
+2. Creating more classes from existing class
+
+===================================================
+
+Poly means Many
+Morphism Forms
+
+If one or more method is having same name but
+different list of parameter, type of parameter, order of parameter
+then method is said to be overloaded
+
+Based on the argument the method will be called
+its compile time PL
+
+
+
+Overriding
+
+If a sub class method has same method signature with its super class
+then method is said be overriden
+
+Reimplementation of the same method
