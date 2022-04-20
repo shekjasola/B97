@@ -1,0 +1,155 @@
+
+shekj@LAPTOP-GNU95TN3 MINGW64 ~
+$ pwd
+/c/Users/shekj
+
+shekj@LAPTOP-GNU95TN3 MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+shekj@LAPTOP-GNU95TN3 MINGW64 ~
+$ cd ..
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/Users
+$ cd ..
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c
+$ pwd
+/c
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c
+$ cd shekhar
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar (master)
+$ cd gitapril
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril (master)
+$ cd springrest
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ pwd
+/c/shekhar/gitapril/springrest
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/main/java/com/learn/today/app/controllers/StudentController.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ git add .
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ git commit -m "april 20th"
+[master 77f471c] april 20th
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ git push origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (11/11), 748 bytes | 374.00 KiB/s, done.
+Total 11 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/shekjasola/Springrest.git
+   4ec015b..77f471c  master -> master
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ git pull origin master
+From https://github.com/shekjasola/Springrest
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril/springrest (master)
+$ cd ..
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar/gitapril (master)
+$ cd ..
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/shekhar (master)
+$ cd ..
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c
+$ pwd
+/c
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c
+$ cd rest2
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2
+$ cd registeruser
+bash: cd: registeruser: No such file or directory
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2
+$ cd registereduser
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser
+$ pwd
+/c/rest2/registereduser
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser
+$ git init
+Initialized empty Git repository in C:/Rest2/RegisteredUser/.git/
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        build/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser (master)
+$ git add .
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser (master)
+$ git commit -m "initial commit"
+[master (root-commit) 08b4b82] initial commit
+ 13 files changed, 172 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/.jsdtscope
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.wst.common.component
+ create mode 100644 .settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.container
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.name
+ create mode 100644 build/classes/com/cts/Register.class
+ create mode 100644 src/main/java/com/cts/Register.java
+ create mode 100644 src/main/webapp/META-INF/MANIFEST.MF
+ create mode 100644 src/main/webapp/WEB-INF/web.xml
+ create mode 100644 src/main/webapp/register.html
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser (master)
+$ git remote add origin https://github.com/shekjasola/Rest.git
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser (master)
+$ git push  origin master
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (28/28), 5.00 KiB | 1.67 MiB/s, done.
+Total 28 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/shekjasola/Rest.git
+ * [new branch]      master -> master
+
+shekj@LAPTOP-GNU95TN3 MINGW64 /c/rest2/registereduser (master)
+$
